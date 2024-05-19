@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+/* body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+} */
+.wrapper{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+}
+.wrapper h2{
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #282828;
+}
+.wrapper h2::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 28px;
+  border-radius: 12px;
+  background: #fff;
+}
+.wrapper form{
+  margin-top: 30px;
+}
+.wrapper form .input-box{
+  height: 52px;
+  margin: 18px 0;
+}
+form .input-box input,
+form .input-box select{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #282828;
+  border: 1.5px solid #C7BEBE;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+form .input-box select {
+  background: transparent;
+  background-position: right 40px top 50%; 
+  color:#707070;
+}
+
+
+form .policy{
+  display: flex;
+  align-items: center;
+}
+form h3{
+  color: #707070;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.input-box.button input{
+  color: #282828;
+  letter-spacing: 1px;
+  border: 1px solid #000000;
+  background: #acadd3;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
+form .text h3{
+ color: #282828;
+ width: 100%;
+ text-align: center;
+ 
+}
+
+
+form .input-box input::placeholder {
+  color:#707070;
+}
+
+

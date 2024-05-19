@@ -1,0 +1,10 @@
+
+.link-style {
+    color: inherit; 
+    text-decoration: none; 
+  }
+  
+  .link-style:hover {
+    cursor: pointer;
+  }
+  

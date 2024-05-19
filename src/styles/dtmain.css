@@ -1,0 +1,73 @@
+ /* Container für die Boxen */
+  .container-dt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Box-Stile */
+  .box {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Erste Reihe von Boxen */
+  .box-half {
+    width: 40%;
+    height: 400px;
+  }
+  
+  /* Zweite Reihe von Boxen */
+  .box-full {
+    width: 80%;
+    position:relative;
+    height: 300px;
+  }
+  
+  .sub-boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sub-box {
+    width: 22%;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .sub-box.active {
+    background-color: green; 
+  }
+
+/* Stile für den Button-Container */
+.button-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  /* Stile für den kleinen Button */
+  .small-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; 
+  }
+  
+  .small-button:hover {
+    background-color: #0056b3;
+  }
+
